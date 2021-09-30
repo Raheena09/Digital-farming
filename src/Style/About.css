@@ -1,0 +1,28 @@
+#about-main {
+  background-color: #5d9149;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 50px 130px;
+}
+
+#about-first {
+  padding-bottom: 20px;
+}
+
+@media (max-width: 400px) {
+  #about-main {
+    padding: 50px 100px;
+
+  }
+}
+
+.about-content {
+  color: white;
+  font-size: 26px;
+}
+@media (max-width: 550px) {
+  .carousel-wrapper {
+    width: 200px !important;
+  }
+}

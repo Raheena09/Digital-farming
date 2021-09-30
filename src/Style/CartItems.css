@@ -1,0 +1,12 @@
+.checkOutButton{
+
+font-size: 0.8rem;
+padding:10px 10px;
+margin: 0.1rem;
+border-radius: 0.5rem;
+background-color: #81bb6a;
+display: block;
+cursor: pointer;
+text-align: center;
+margin-left: 10px;
+}

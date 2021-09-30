@@ -1,0 +1,41 @@
+#contact-main {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 230px;
+  background-color: #5d9149;
+  padding: 50px 123px;
+}
+@media (max-width: 460px) {
+  #contact-main {
+    padding: 50px;
+   
+  }
+}
+
+
+#contact-form-label li {
+  padding: 10px 10px 10px 0px;
+  list-style: none;
+  color: white;
+}
+.noHover {
+  pointer-events: none;
+}
+.icon-style {
+  color: white;
+  cursor:pointer;
+}
+#contact-form-textfield {
+  display: grid;
+  grid-template-columns: auto;
+ 
+}
+.each-textfield{
+  padding-top: 10px;
+}
+
+@media (max-width: 800px) {
+  #follow-us {
+    padding-top: 30px;
+  }
+}

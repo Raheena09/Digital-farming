@@ -1,0 +1,27 @@
+/* style={{backgroundColor:'#5d9149', color:'white', padding:"100px 0px 28px 260px"}} */
+.product-wrapper{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 120px 80px 80px 80px ;
+    background-color:#5d9149 ;
+    color:white;
+}
+@media(max-width:800px){
+    .product-wrapper{
+        display: grid;
+        grid-template-columns: auto ;
+    padding: 100px 0px 0px 20px;
+
+
+    }
+
+    .CardItems{
+        padding: 10px;
+    }
+}
+.ProductsCom{
+    width: 100%;
+
+}
+.CardItems{
+}

@@ -1,0 +1,20 @@
+.container {
+    position: fixed;
+    top:  0 ;
+    left:  0 ;
+    width:  100% ;
+    height:  100% ;
+    background-color:  #5D9149 ;
+    z-index:  10000 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction:column;
+    font-family: sans-serif;
+}
+  
+  .pic{
+    height: 100 px ;
+    width: 100 px ;
+  }

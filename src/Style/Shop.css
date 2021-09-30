@@ -1,0 +1,27 @@
+#shop-main{
+    display:grid;
+    grid-template-columns:  auto auto;
+}
+#items-div{
+    padding: 100px 20px 200px 180px;
+    color:white;
+}
+#cartItems{
+    padding:0px 150px 0px 0px;
+}
+
+@media(max-width:950px){
+    #shop-main{
+        display: grid;
+        grid-template-columns: auto;
+        
+    }
+
+    #items-div{
+        padding: 10px;
+    }
+    #cartItems{
+        padding: 10px;
+    }
+}
+

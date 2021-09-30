@@ -1,0 +1,28 @@
+#login-shop-main{
+    display:grid;
+    grid-template-columns:  auto auto;
+    justify-content: space-around;
+    background-color:#5d9149 !important;
+    padding: 100px 80px 200px 120px;
+
+    
+}
+.login-items-div{
+    color:white;
+}
+#login-cartItems{
+    padding:50px ;
+}
+@media (max-width:1000px){
+    #login-shop-main{
+        display:grid;
+    grid-template-columns: auto;
+    }
+    
+}
+@media (max-width:550px){
+    #login-shop-main .login-items-div{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
